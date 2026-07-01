@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="exercise-2"/>
+        <attribute name="authors" value="User"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2026-07-01 11:34:55 AM"/>
+        <attribute name="created" value="VXNlcjtERVNLVE9QLUozOVAxTlQ7MjAyNi0wNy0wMTsxMTowNToyNCBBTTsyNzMx"/>
+        <attribute name="edited" value="VXNlcjtERVNLVE9QLUozOVAxTlQ7MjAyNi0wNy0wMTsxMTozMjo1OCBBTTsxO1VzZXI7REVTS1RPUC1KMzlQMU5UOzIwMjYtMDctMDE7MTA6NTQ6MDggQU07ZXhlcmNpc2UtMS5mcHJnOzcxMjc="/>
+        <attribute name="edited" value="VXNlcjtERVNLVE9QLUozOVAxTlQ7MjAyNi0wNy0wMTsxMTozNDo1NSBBTTsyOzI4NDY="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="timberLength" type="Integer" array="False" size=""/>
+            <input variable="timberLength"/>
+            <declare name="totalLength" type="Integer" array="False" size=""/>
+            <assign variable="totalLength" expression="timberLength/100+(timberLength*10/100)"/>
+            <output expression="&quot;Total length of timber in meter is &quot;" newline="True"/>
+            <output expression="totalLength" newline="True"/>
+            <input variable="totalLength"/>
+            <declare name="priceperMeter" type="Integer" array="False" size=""/>
+            <declare name="totalPrice" type="Integer" array="False" size=""/>
+            <assign variable="totalPrice" expression="totalLength * pricepermeter"/>
+            <output expression="&quot;Total price is &quot;" newline="True"/>
+            <output expression="totalPrice" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

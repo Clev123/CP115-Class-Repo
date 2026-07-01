@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="exercise-1"/>
+        <attribute name="authors" value="User"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2026-07-01 11:27:06 AM"/>
+        <attribute name="created" value="VXNlcjtERVNLVE9QLUozOVAxTlQ7MjAyNi0wNy0wMTsxMDo1NDowOCBBTTsyNzM2"/>
+        <attribute name="edited" value="VXNlcjtERVNLVE9QLUozOVAxTlQ7MjAyNi0wNy0wMTsxMToyNzowNiBBTTszOzI4NDU="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="totalRinggit" type="Integer" array="False" size=""/>
+            <input variable="totalRinggit"/>
+            <declare name="deductedRinggit" type="Integer" array="False" size=""/>
+            <assign variable="deductedRinggit" expression="totalRinggit-(totalRinggit*2/100)"/>
+            <output expression="&quot;Your total Riggit after commission is &quot;" newline="True"/>
+            <output expression="deductedRinggit" newline="True"/>
+            <declare name="totalBaht" type="Integer" array="False" size=""/>
+            <assign variable="totalBaht" expression="deductedRinggit*814/100"/>
+            <output expression="&quot;Your total Thai Baht is &quot;" newline="True"/>
+            <output expression="totalBaht" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

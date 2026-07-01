@@ -4,16 +4,16 @@
         <attribute name="name" value="lab-2"/>
         <attribute name="authors" value="User"/>
         <attribute name="about" value=""/>
-        <attribute name="saved" value="2026-07-01 10:46:29 AM"/>
+        <attribute name="saved" value="2026-07-01 11:04:40 AM"/>
         <attribute name="created" value="VXNlcjtERVNLVE9QLUozOVAxTlQ7MjAyNi0wNy0wMTsxMDo0NDo0MSBBTTsyNzMy"/>
-        <attribute name="edited" value="VXNlcjtERVNLVE9QLUozOVAxTlQ7MjAyNi0wNy0wMTsxMDo0NjoyOSBBTTsxOzI4NDg="/>
+        <attribute name="edited" value="VXNlcjtERVNLVE9QLUozOVAxTlQ7MjAyNi0wNy0wMTsxMTowNDo0MCBBTTsyOzI4Mzc="/>
     </attributes>
     <function name="Main" type="None" variable="">
         <parameters/>
         <body>
             <declare name="mealPrice" type="Integer" array="False" size=""/>
-            <declare name="finalPrice" type="Integer" array="False" size=""/>
             <input variable="mealPrice"/>
+            <declare name="finalPrice" type="Integer" array="False" size=""/>
             <output expression="finalPrice" newline="True"/>
         </body>
     </function>
