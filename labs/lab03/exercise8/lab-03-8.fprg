@@ -4,9 +4,9 @@
         <attribute name="name" value="lab-03-8"/>
         <attribute name="authors" value="User"/>
         <attribute name="about" value=""/>
-        <attribute name="saved" value="2026-07-15 12:02:55 PM"/>
+        <attribute name="saved" value="2026-07-15 12:10:50 PM"/>
         <attribute name="created" value="VXNlcjtERVNLVE9QLUozOVAxTlQ7MjAyNi0wNy0xNTsxMToyMjo0OSBBTTsyNzQy"/>
-        <attribute name="edited" value="VXNlcjtERVNLVE9QLUozOVAxTlQ7MjAyNi0wNy0xNTsxMjowMjo1NSBQTTsyOzI4NjI="/>
+        <attribute name="edited" value="VXNlcjtERVNLVE9QLUozOVAxTlQ7MjAyNi0wNy0xNTsxMjoxMDo1MCBQTTszOzI4NTc="/>
     </attributes>
     <function name="Main" type="None" variable="">
         <parameters/>
@@ -18,10 +18,10 @@
             <declare name="time" type="Real" array="False" size=""/>
             <input variable="time"/>
             <declare name="interest" type="Real" array="False" size=""/>
-            <assign variable="interest" expression="principal * rate * time"/>
+            <assign variable="interest" expression="principal * (rate/100) * time"/>
             <output expression="interest" newline="True"/>
             <declare name="totalAmount" type="Real" array="False" size=""/>
-            <assign variable="totalAmount" expression="principal + (principal * (1 * rate * time))"/>
+            <assign variable="totalAmount" expression="principal + (principal * (1 * (rate/100) * time))"/>
             <output expression="totalAmount" newline="True"/>
             <declare name="monthlyInterest" type="Integer" array="False" size=""/>
             <assign variable="monthlyInterest" expression="interest / (time * 12)"/>
