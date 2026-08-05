@@ -7,3 +7,6 @@
 # On Windows you may need:         py exercise.py
 #
 # Nothing in this file is marked, so experiment as much as you like.
+name = "Alice"
+age = 25
+print(f"{name.upper()} has {len(name)} letters")
